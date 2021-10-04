@@ -1,0 +1,17 @@
+{
+  "name": "abb-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "start": "node ./index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^16.10.3"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0"
+  }
+}

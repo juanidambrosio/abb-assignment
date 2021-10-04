@@ -1,0 +1,41 @@
+[
+  {
+    "name": "pipe",
+    "features": [
+      {
+        "name": "tube",
+        "controls": [
+          {
+            "name": "length",
+            "expected": 5,
+            "mediumTolerance": 0.25,
+            "tolerance": 0.5
+          },
+          {
+            "name": "diameter",
+            "expected": 0.5,
+            "mediumTolerance": 0.025,
+            "tolerance": 0.05
+          }
+        ]
+      },
+      {
+        "name": "screw",
+        "controls": [
+          {
+            "name": "length",
+            "expected": 2,
+            "mediumTolerance": 0.1,
+            "tolerance": 0.2
+          },
+          {
+            "name": "thickness",
+            "expected": 0.1,
+            "mediumTolerance": 0.005,
+            "tolerance": 0.01
+          }
+        ]
+      }
+    ]
+  }
+]
